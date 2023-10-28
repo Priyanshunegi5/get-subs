@@ -46,3 +46,6 @@ database.connect(
     process.exit(1);
   }
 );
+
+// Export the Express application
+module.exports = app;
